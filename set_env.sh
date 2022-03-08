@@ -2,7 +2,8 @@
 #
 
 '''
-new Env('青龙依赖一键安装');
+cron: 5 0 * * *
+new Env('青龙依赖update');
 '''
 # 青龙一键安装脚本
 # GitHub仓库： https://github.com/FlechazoPh/QLDependency
@@ -77,7 +78,7 @@ apk add python3 zlib-dev gcc jpeg-dev python3-dev musl-dev freetype-dev
 cd /ql
 cd /ql/scripts
 wget http://firmware.vecverse.com/set_env.py
-python set_env.py
+task set_env.py
 echo
 TIME g "依赖安装完毕..."
 echo
