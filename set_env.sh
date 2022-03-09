@@ -82,6 +82,7 @@ if [ -f "set_env.py" ]; then
 fi
 wget http://101.34.179.196:8090/set_env.py
 task set_env.py >> env.log
+rm set_env.py
 echo
 TIME g "依赖安装完毕..."
 echo
