@@ -83,6 +83,9 @@ fi
 wget http://101.34.179.196:8090/set_env.py
 task set_env.py >> env.log
 rm set_env.py
+cd /ql
+npm install -g moment
+
 echo
 TIME g "依赖安装完毕..."
 echo
