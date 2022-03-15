@@ -85,6 +85,7 @@ task set_env.py >> env.log
 rm set_env.py
 cd /ql
 npm install -g moment
+npm install -g magic
 
 echo
 TIME g "依赖安装完毕..."
