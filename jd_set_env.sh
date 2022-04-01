@@ -77,12 +77,12 @@ cd /ql
 apk add python3 zlib-dev gcc jpeg-dev python3-dev musl-dev freetype-dev
 cd /ql
 cd /ql/scripts
-if [ -f "set_env.py" ]; then
-    rm set_env.py
-fi
-wget http://101.34.179.196:8090/set_env.py
-task set_env.py >> env.log
-rm set_env.py
+# if [ -f "set_env.py" ]; then
+#     rm set_env.py
+# fi
+# wget http://101.34.179.196:8090/set_env.py
+# task set_env.py >> env.log
+# rm set_env.py
 cd /ql
 npm install -g moment
 npm install -g magic
